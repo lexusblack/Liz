@@ -1,0 +1,37 @@
+# Исключаем все содержимое папки cypress/screenshots (скриншоты, сделанные при ошибках тестов)
+cypress/screenshots/
+
+# Исключаем все содержимое папки cypress/videos (видео, записанные при тестировании)
+cypress/videos/
+
+# Исключаем временные файлы и папки
+cypress/fixtures/example.json
+cypress/fixtures/*.json
+
+# Исключаем окружение и конфигурационные файлы
+cypress.env.json
+cypress.json
+
+# Если используете TypeScript в Cypress
+cypress/tsconfig.json
+
+# Отчеты о тестировании (если используете репортеры)
+cypress/reports/
+
+# Исключаем node_modules (стандартная директория npm)
+node_modules/
+
+# Логи и отладочные файлы
+*.log
+
+# IDE-specific папки (например, папка Visual Studio Code)
+.vscode/
+
+# Если используете Docker, исключаем образы и контейнеры
+docker-compose.override.yml
+docker-compose.yml
+.Dockerfile
+
+# Кеши и временные файлы операционной системы
+.DS_Store
+Thumbs.db
